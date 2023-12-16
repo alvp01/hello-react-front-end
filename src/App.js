@@ -1,7 +1,7 @@
 import { useDispatch } from 'react-redux';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { useEffect } from 'react';
-import { getRandomGreeting } from './redux/greetings/greetingsSlice';
+import { getRandomGreeting } from './redux/greetings/greetingSlice';
 import Greeting from './components/Greeting';
 
 function App() {

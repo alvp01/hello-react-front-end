@@ -20,7 +20,7 @@ function Greeting() {
       {
       (isLoading || error)
         ? (<p className="status"><i>{loadMessage}</i></p>)
-        : (<p className="greeting-message"><b>{greeting?.message}</b></p>)
+        : (<p className="greeting-message"><b>{greeting?.salutation}</b></p>)
     }
     </section>
   );
